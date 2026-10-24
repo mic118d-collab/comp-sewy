@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="2048" height="2048" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <defs>
+    <linearGradient id="scc-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    <linearGradient id="scc-rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+    <linearGradient id="scc-ban" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b91c1c" />
+      <stop offset="50%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+    <clipPath id="scc-sc">
+      <path d="M 76,68 Q 256,18 436,68 V 268 C 436,380 256,484 256,484 C 256,484 76,380 76,268 Z" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#scc-sc)">
+    <rect x="60" y="16" width="392" height="480" fill="url(#scc-bg)" />
+    
+        <!-- Quartered Heraldic Arms -->
+        <rect x="76" y="34" width="180" height="142" fill="#eab308" />
+        <rect x="256" y="34" width="180" height="142" fill="#111827" />
+        <rect x="76" y="176" width="180" height="142" fill="#f8fafc" />
+        <rect x="256" y="176" width="180" height="142" fill="#dc2626" />
+        <circle cx="256" cy="178" r="68" fill="#0f172a" stroke="#eab308" stroke-width="7" />
+        <circle cx="256" cy="178" r="57" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="2.5" />
+        <text x="256" y="201" text-anchor="middle" fill="#ffffff" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="56" font-weight="900">SCC</text>
+        
+    <g>
+      <circle cx="256" cy="420" r="27" fill="#ffffff" stroke="#eab308" stroke-width="3.0" />
+      <line x1="256.0" y1="410.3" x2="256.0" y2="395.2" stroke="#111827" stroke-width="2.3" stroke-linecap="round" /><line x1="265.2" y1="417.0" x2="279.6" y2="412.3" stroke="#111827" stroke-width="2.3" stroke-linecap="round" /><line x1="261.7" y1="427.9" x2="270.6" y2="440.1" stroke="#111827" stroke-width="2.3" stroke-linecap="round" /><line x1="250.3" y1="427.9" x2="241.4" y2="440.1" stroke="#111827" stroke-width="2.3" stroke-linecap="round" /><line x1="246.8" y1="417.0" x2="232.4" y2="412.3" stroke="#111827" stroke-width="2.3" stroke-linecap="round" />
+      <polygon points="256.0,410.3 265.2,417.0 261.7,427.9 250.3,427.9 246.8,417.0" fill="#111827" />
+      <circle cx="249.0" cy="413.0" r="4.9" fill="#ffffff" fill-opacity="0.35" />
+    </g>
+  
+      
+    <!-- Curved Enamel Banner Ribbon -->
+    <path d="M 56,306 Q 256,282 456,306 L 456,374 Q 256,350 56,374 Z" fill="url(#scc-ban)" stroke="#fde047" stroke-width="4" />
+    <text x="256" y="349" text-anchor="middle" fill="#ffffff" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="30" font-weight="900" letter-spacing="2.2">S.C. CLAIRMONT</text>
+    <!-- Split-Half Studio Specular Highlight -->
+    <rect x="256" y="16" width="200" height="480" fill="#ffffff" fill-opacity="0.065" />
+  </g>
+  <path d="M 90,76 Q 256,32 422,76 V 266 C 422,368 256,466 256,466 C 256,466 90,368 90,266 Z" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="3" stroke-linejoin="round" />
+  <path d="M 76,68 Q 256,18 436,68 V 268 C 436,380 256,484 256,484 C 256,484 76,380 76,268 Z" fill="none" stroke="url(#scc-rim)" stroke-width="12" stroke-linejoin="round" />
+</svg>

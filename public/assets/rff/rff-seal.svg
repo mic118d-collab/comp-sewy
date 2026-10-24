@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <path id="rff-top-arc" d="M 68,256 A 188,188 0 1,1 444,256" />
+    <path id="rff-bot-arc" d="M 436,274 A 182,182 0 0,1 76,274" />
+    <clipPath id="rff-center-clip">
+      <circle cx="256" cy="256" r="126" />
+    </clipPath>
+  </defs>
+  <!-- Outer Monochrome Seal -->
+  <circle cx="256" cy="256" r="244" fill="#07080d" stroke="#ffffff" stroke-width="10" />
+  <circle cx="256" cy="256" r="228" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="3" />
+  <circle cx="256" cy="256" r="144" fill="#0e1018" stroke="#ffffff" stroke-width="7" />
+  <!-- Subtle Split Highlight -->
+  <path d="M256,12 A244,244 0 0,1 256,500 Z" fill="#ffffff" fill-opacity="0.04" />
+  <!-- Ring Text -->
+  <text fill="#ffffff" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="23.5" font-weight="900" letter-spacing="3.2">
+    <textPath href="#rff-top-arc" startOffset="50%" text-anchor="middle">ROBLOX FOOTBALL FEDERATION</textPath>
+  </text>
+  <text fill="#e2e8f0" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" letter-spacing="5">
+    <textPath href="#rff-bot-arc" startOffset="50%" text-anchor="middle">★  EST. 2026  ★</textPath>
+  </text>
+  <!-- Side Separators -->
+  <circle cx="56" cy="256" r="6" fill="#ffffff" />
+  <circle cx="456" cy="256" r="6" fill="#ffffff" />
+  <!-- Iconic RFF Circular Monogram -->
+  <g clip-path="url(#rff-center-clip)">
+    <circle cx="256" cy="256" r="126" fill="#090b11" />
+    <!-- R -->
+    <path d="M142,140 H208 C226,140 236,152 236,174 C236,194 226,206 210,210 L238,372 H204 L180,220 H174 V372 H142 Z M174,168 V194 H200 C205,194 208,188 208,181 C208,173 205,168 200,168 Z" fill="#ffffff" />
+    <!-- Middle F -->
+    <path d="M246,134 H316 V166 H280 V236 H312 V268 H280 V380 H246 Z" fill="#ffffff" />
+    <!-- Right F -->
+    <path d="M326,144 H390 V176 H358 V238 H386 V270 H358 V372 H326 Z" fill="#ffffff" />
+  </g>
+</svg>

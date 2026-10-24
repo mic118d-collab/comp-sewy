@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="2048" height="2048" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <defs>
+    <linearGradient id="fcp-ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="fcp-rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <radialGradient id="fcp-core" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#090d16" />
+    </radialGradient>
+    <path id="fcp-t" d="M 70,256 A 186,186 0 1,1 442,256" />
+    <path id="fcp-b" d="M 434,274 A 180,180 0 0,1 78,274" />
+    <clipPath id="fcp-c">
+      <circle cx="256" cy="256" r="144" />
+    </clipPath>
+  </defs>
+  <!-- Outer Metallic Bezel + Enamel Ring -->
+  <circle cx="256" cy="256" r="245" fill="url(#fcp-ring)" stroke="url(#fcp-rim)" stroke-width="12" />
+  <circle cx="256" cy="256" r="231" fill="none" stroke="#7dd3fc" stroke-opacity="0.45" stroke-width="2.5" />
+  <circle cx="256" cy="256" r="154" fill="none" stroke="#7dd3fc" stroke-opacity="0.3" stroke-width="2" />
+
+  <!-- Core Heraldry Field -->
+  <g clip-path="url(#fcp-c)">
+    <circle cx="256" cy="256" r="144" fill="url(#fcp-core)" />
+    
+        <!-- Lighthouse Beacon Rays + Monogram -->
+        <polygon points="256,158 128,118 156,96" fill="#38bdf8" fill-opacity="0.28" />
+        <polygon points="256,158 384,118 356,96" fill="#38bdf8" fill-opacity="0.28" />
+        <circle cx="256" cy="256" r="112" fill="none" stroke="#38bdf8" stroke-width="5.5" />
+        <circle cx="256" cy="256" r="98" fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="2" />
+        <text x="256" y="294" text-anchor="middle" fill="#ffffff" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="104" font-weight="900" letter-spacing="-4">FCP</text>
+      
+    <!-- Split-Half Studio Specular Sheen -->
+    <path d="M256,112 A144,144 0 0,1 256,400 Z" fill="#ffffff" fill-opacity="0.065" />
+  </g>
+  <circle cx="256" cy="256" r="144" fill="none" stroke="url(#fcp-rim)" stroke-width="8" />
+
+  <!-- Side Heraldic Stars -->
+  <circle cx="52" cy="256" r="5" fill="#7dd3fc" />
+  <circle cx="460" cy="256" r="5" fill="#7dd3fc" />
+
+  <!-- Crisp Circular Typography -->
+  <text fill="#ffffff" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="20.5" font-weight="900" letter-spacing="2.2">
+    <textPath href="#fcp-t" startOffset="50%" text-anchor="middle">FOOTBALL CLUB PORTECLAIRE</textPath>
+  </text>
+  <text fill="#7dd3fc" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="19.5" font-weight="800" letter-spacing="3.5">
+    <textPath href="#fcp-b" startOffset="50%" text-anchor="middle">★  F.C. PORTECLAIRE  ★</textPath>
+  </text>
+</svg>

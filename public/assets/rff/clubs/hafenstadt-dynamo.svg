@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <polygon points="256,24 462,140 462,372 256,488 50,372 50,140" fill="#0f1117" stroke="#ffffff" stroke-width="12" stroke-linejoin="round" />
+  <polygon points="256,48 440,152 440,360 256,464 72,360 72,152" fill="none" stroke="#94a3b8" stroke-width="4" />
+  <path d="M196,126 H274 C326,126 356,162 356,214 C356,266 324,302 274,302 H196 Z M234,160 V268 H270 C300,268 318,246 318,214 C318,182 300,160 270,160 Z" fill="#ffffff" />
+  <path d="M272,108 L236,216 H276 L244,322 L316,198 H272 Z" fill="#e2e8f0" stroke="#0f1117" stroke-width="4" />
+  <rect x="74" y="316" width="364" height="54" rx="6" fill="#ffffff" />
+  <text x="256" y="352" text-anchor="middle" fill="#0f1117" font-family="'Arial Black', sans-serif" font-size="25" font-weight="900" letter-spacing="1.5">HAFENSTADT DYNAMO</text>
+  
+    <g>
+      <circle cx="256" cy="416" r="26" fill="#ffffff" stroke="#ffffff" stroke-width="2.6" />
+      <line x1="256.0" y1="406.6" x2="256.0" y2="392.1" stroke="#0f1117" stroke-width="2.1" /><line x1="264.9" y1="413.1" x2="278.7" y2="408.6" stroke="#0f1117" stroke-width="2.1" /><line x1="261.5" y1="423.6" x2="270.1" y2="435.4" stroke="#0f1117" stroke-width="2.1" /><line x1="250.5" y1="423.6" x2="241.9" y2="435.4" stroke="#0f1117" stroke-width="2.1" /><line x1="247.1" y1="413.1" x2="233.3" y2="408.6" stroke="#0f1117" stroke-width="2.1" />
+      <polygon points="256.0,406.6 264.9,413.1 261.5,423.6 250.5,423.6 247.1,413.1" fill="#0f1117" />
+    </g>
+  
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <path id="grn-t" d="M 72,256 A 184,184 0 1,1 440,256" />
+    <path id="grn-b" d="M 432,274 A 178,178 0 0,1 80,274" />
+    <clipPath id="grn-c">
+      <circle cx="256" cy="256" r="142" />
+    </clipPath>
+  </defs>
+  <circle cx="256" cy="256" r="242" fill="#581c87" stroke="#ffffff" stroke-width="11" />
+  <circle cx="256" cy="256" r="224" fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="3" />
+  <g clip-path="url(#grn-c)">
+    <circle cx="256" cy="256" r="142" fill="#7e22ce" />
+    
+        <!-- Rearing White Stallion -->
+        <path d="M276,144 C298,144 312,164 304,184 L326,198 L308,212 L286,204 C284,228 298,252 292,282 L316,326 H290 L270,290 L246,292 L226,338 H200 L222,276 C206,254 210,218 232,196 L220,174 L246,166 C254,150 264,144 276,144 Z" fill="#ffffff" />
+      
+    <path d="M256,114 A142,142 0 0,1 256,398 Z" fill="#ffffff" fill-opacity="0.06" />
+  </g>
+  <circle cx="256" cy="256" r="142" fill="none" stroke="#ffffff" stroke-width="7" />
+  <text fill="#ffffff" font-family="'Arial Black', sans-serif" font-size="24" font-weight="900" letter-spacing="2.2">
+    <textPath href="#grn-t" startOffset="50%" text-anchor="middle">GRÜNTAL SPORT-CLUB</textPath>
+  </text>
+  <text fill="#f3e8ff" font-family="'Arial Black', sans-serif" font-size="20" font-weight="800" letter-spacing="3.5">
+    <textPath href="#grn-b" startOffset="50%" text-anchor="middle">★  GSC · 2026  ★</textPath>
+  </text>
+</svg>

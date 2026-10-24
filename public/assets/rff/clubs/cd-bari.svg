@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <path id="bar-t" d="M 72,256 A 184,184 0 1,1 440,256" />
+    <path id="bar-b" d="M 432,274 A 178,178 0 0,1 80,274" />
+    <clipPath id="bar-c">
+      <circle cx="256" cy="256" r="142" />
+    </clipPath>
+  </defs>
+  <circle cx="256" cy="256" r="242" fill="#b91c1c" stroke="#ffffff" stroke-width="11" />
+  <circle cx="256" cy="256" r="224" fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="3" />
+  <g clip-path="url(#bar-c)">
+    <circle cx="256" cy="256" r="142" fill="#111827" />
+    
+        <rect x="114" y="114" width="142" height="284" fill="#dc2626" />
+        <text x="256" y="296" text-anchor="middle" fill="#ffffff" font-family="'Arial Black', sans-serif" font-size="118" font-weight="900" letter-spacing="-4">BR</text>
+      
+    <path d="M256,114 A142,142 0 0,1 256,398 Z" fill="#ffffff" fill-opacity="0.06" />
+  </g>
+  <circle cx="256" cy="256" r="142" fill="none" stroke="#ffffff" stroke-width="7" />
+  <text fill="#ffffff" font-family="'Arial Black', sans-serif" font-size="24" font-weight="900" letter-spacing="2.2">
+    <textPath href="#bar-t" startOffset="50%" text-anchor="middle">CLUB DEPORTIVO BARI</textPath>
+  </text>
+  <text fill="#fecaca" font-family="'Arial Black', sans-serif" font-size="20" font-weight="800" letter-spacing="3.5">
+    <textPath href="#bar-b" startOffset="50%" text-anchor="middle">★  BARI · ITALIA  ★</textPath>
+  </text>
+</svg>

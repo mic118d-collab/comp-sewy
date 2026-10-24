@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="2048" height="2048" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <defs>
+    <linearGradient id="usv-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+    <linearGradient id="usv-rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+    <linearGradient id="usv-ban" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#eab308" />
+      <stop offset="50%" stop-color="#fde047" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+    <clipPath id="usv-sc">
+      <path d="M 76,68 Q 256,18 436,68 V 268 C 436,380 256,484 256,484 C 256,484 76,380 76,268 Z" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#usv-sc)">
+    <rect x="60" y="16" width="392" height="480" fill="url(#usv-bg)" />
+    
+        <!-- Alpine Lake & Twin Golden Pines -->
+        <path d="M76,220 Q166,196 256,220 T436,220 V315 H76 Z" fill="#0284c7" fill-opacity="0.45" />
+        <polygon points="200,82 250,168 150,168" fill="#facc15" />
+        <polygon points="200,132 262,232 138,232" fill="#eab308" />
+        <rect x="189" y="232" width="22" height="44" rx="3" fill="#fef08a" />
+        <polygon points="314,96 360,178 268,178" fill="#fde047" />
+        <polygon points="314,144 370,238 258,238" fill="#facc15" />
+        <rect x="303" y="238" width="22" height="38" rx="3" fill="#fef08a" />
+        
+    <g>
+      <circle cx="256" cy="418" r="29" fill="#ffffff" stroke="#facc15" stroke-width="3.2" />
+      <line x1="256.0" y1="407.6" x2="256.0" y2="391.3" stroke="#172554" stroke-width="2.5" stroke-linecap="round" /><line x1="265.9" y1="414.8" x2="281.4" y2="409.8" stroke="#172554" stroke-width="2.5" stroke-linecap="round" /><line x1="262.1" y1="426.4" x2="271.7" y2="439.6" stroke="#172554" stroke-width="2.5" stroke-linecap="round" /><line x1="249.9" y1="426.4" x2="240.3" y2="439.6" stroke="#172554" stroke-width="2.5" stroke-linecap="round" /><line x1="246.1" y1="414.8" x2="230.6" y2="409.8" stroke="#172554" stroke-width="2.5" stroke-linecap="round" />
+      <polygon points="256.0,407.6 265.9,414.8 262.1,426.4 249.9,426.4 246.1,414.8" fill="#172554" />
+      <circle cx="248.5" cy="410.5" r="5.2" fill="#ffffff" fill-opacity="0.35" />
+    </g>
+  
+      
+    <!-- Curved Enamel Banner Ribbon -->
+    <path d="M 56,306 Q 256,282 456,306 L 456,374 Q 256,350 56,374 Z" fill="url(#usv-ban)" stroke="#fef08a" stroke-width="4" />
+    <text x="256" y="349" text-anchor="middle" fill="#172554" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="30" font-weight="900" letter-spacing="2.2">U.S. VERDELAC</text>
+    <!-- Split-Half Studio Specular Highlight -->
+    <rect x="256" y="16" width="200" height="480" fill="#ffffff" fill-opacity="0.065" />
+  </g>
+  <path d="M 90,76 Q 256,32 422,76 V 266 C 422,368 256,466 256,466 C 256,466 90,368 90,266 Z" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="3" stroke-linejoin="round" />
+  <path d="M 76,68 Q 256,18 436,68 V 268 C 436,380 256,484 256,484 C 256,484 76,380 76,268 Z" fill="none" stroke="url(#usv-rim)" stroke-width="12" stroke-linejoin="round" />
+</svg>

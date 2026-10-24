@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <path id="eec-top" d="M 68,256 A 188,188 0 1,1 444,256" />
+    <path id="eec-bot" d="M 434,274 A 180,180 0 0,1 78,274" />
+  </defs>
+  <circle cx="256" cy="256" r="244" fill="#b91c1c" stroke="#ffffff" stroke-width="11" />
+  <circle cx="256" cy="256" r="228" fill="none" stroke="#1e3a8a" stroke-width="6" />
+  <circle cx="256" cy="256" r="146" fill="#ffffff" stroke="#1e3a8a" stroke-width="7" />
+  <!-- Three Passant Lions Stylized Bars/Crests -->
+  <g fill="#b91c1c">
+    <path d="M188,186 C202,174 228,176 244,184 L314,180 L328,192 L310,202 H214 L198,210 L184,198 Z" />
+    <circle cx="196" cy="182" r="9" />
+    <path d="M182,246 C196,234 224,236 242,244 L318,240 L332,252 L314,262 H210 L194,270 L178,258 Z" />
+    <circle cx="190" cy="242" r="9" />
+    <path d="M188,306 C202,294 228,296 244,304 L314,300 L328,312 L310,322 H214 L198,330 L184,318 Z" />
+    <circle cx="196" cy="302" r="9" />
+  </g>
+  <text fill="#ffffff" font-family="'Arial Black', sans-serif" font-size="22" font-weight="900" letter-spacing="2.4">
+    <textPath href="#eec-top" startOffset="50%" text-anchor="middle">ENGLISH ELITE CONFERENCE</textPath>
+  </text>
+  <text fill="#ffffff" font-family="'Arial Black', sans-serif" font-size="21" font-weight="800" letter-spacing="4.5">
+    <textPath href="#eec-bot" startOffset="50%" text-anchor="middle">★  EST. 2026  ★</textPath>
+  </text>
+</svg>

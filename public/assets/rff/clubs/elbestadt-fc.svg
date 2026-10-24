@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <clipPath id="elb-d"><polygon points="256,26 486,256 256,486 26,256" /></clipPath>
+  </defs>
+  <g clip-path="url(#elb-d)">
+    <rect x="0" y="0" width="512" height="512" fill="#111118" />
+    <polygon points="256,26 486,256 256,256" fill="#ec4899" />
+    <polygon points="26,256 256,256 256,486" fill="#db2777" />
+    <rect x="20" y="220" width="472" height="72" fill="#09090d" stroke="#f472b6" stroke-width="5" />
+    <text x="256" y="268" text-anchor="middle" fill="#ffffff" font-family="'Arial Black', sans-serif" font-size="38" font-weight="900" letter-spacing="3">ELBESTADT</text>
+    <text x="256" y="168" text-anchor="middle" fill="#ffffff" font-family="'Arial Black', sans-serif" font-size="44" font-weight="900">EFC</text>
+    
+    <g>
+      <circle cx="256" cy="374" r="34" fill="#ffffff" stroke="#ec4899" stroke-width="3.4" />
+      <line x1="256.0" y1="361.8" x2="256.0" y2="342.7" stroke="#111118" stroke-width="2.7" /><line x1="267.6" y1="370.2" x2="285.7" y2="364.3" stroke="#111118" stroke-width="2.7" /><line x1="263.2" y1="383.9" x2="274.4" y2="399.3" stroke="#111118" stroke-width="2.7" /><line x1="248.8" y1="383.9" x2="237.6" y2="399.3" stroke="#111118" stroke-width="2.7" /><line x1="244.4" y1="370.2" x2="226.3" y2="364.3" stroke="#111118" stroke-width="2.7" />
+      <polygon points="256.0,361.8 267.6,370.2 263.2,383.9 248.8,383.9 244.4,370.2" fill="#111118" />
+    </g>
+  
+  </g>
+  <polygon points="256,26 486,256 256,486 26,256" fill="none" stroke="#f472b6" stroke-width="12" stroke-linejoin="round" />
+</svg>

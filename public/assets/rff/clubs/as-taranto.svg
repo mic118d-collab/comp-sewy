@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <clipPath id="tar-sc">
+      <path d="M 78,70 Q 256,22 434,70 V 268 C 434,378 256,482 256,482 C 256,482 78,378 78,268 Z" />
+    </clipPath>
+  </defs>
+  
+  <g clip-path="url(#tar-sc)">
+    <rect x="60" y="20" width="392" height="480" fill="#b91c1c" />
+    
+        <!-- Castle + Blue Crescent + Ball -->
+        <rect x="174" y="128" width="164" height="122" fill="#eab308" stroke="#7f1d1d" stroke-width="4" />
+        <rect x="174" y="102" width="34" height="32" fill="#eab308" />
+        <rect x="239" y="102" width="34" height="32" fill="#eab308" />
+        <rect x="304" y="102" width="34" height="32" fill="#eab308" />
+        <rect x="232" y="186" width="48" height="64" rx="24" fill="#7f1d1d" />
+        <path d="M332,126 A42,42 0 1,1 332,202 A32,32 0 1,0 332,126 Z" fill="#38bdf8" />
+        
+    <g>
+      <circle cx="256" cy="418" r="28" fill="#ffffff" stroke="#eab308" stroke-width="2.8" />
+      <line x1="256.0" y1="407.9" x2="256.0" y2="392.2" stroke="#1d4ed8" stroke-width="2.2" /><line x1="265.6" y1="414.9" x2="280.5" y2="410.0" stroke="#1d4ed8" stroke-width="2.2" /><line x1="261.9" y1="426.2" x2="271.1" y2="438.8" stroke="#1d4ed8" stroke-width="2.2" /><line x1="250.1" y1="426.2" x2="240.9" y2="438.8" stroke="#1d4ed8" stroke-width="2.2" /><line x1="246.4" y1="414.9" x2="231.5" y2="410.0" stroke="#1d4ed8" stroke-width="2.2" />
+      <polygon points="256.0,407.9 265.6,414.9 261.9,426.2 250.1,426.2 246.4,414.9" fill="#1d4ed8" />
+    </g>
+  
+      
+    <!-- Banner Ribbon -->
+    <path d="M 60,308 Q 256,286 452,308 L 452,374 Q 256,352 60,374 Z" fill="#1d4ed8" />
+    <text x="256" y="349" text-anchor="middle" fill="#ffffff" font-family="'Arial Black', sans-serif" font-size="30" font-weight="900" letter-spacing="2">A.S. TARANTO</text>
+    <!-- Split-Half Subtle Highlight (matches Palmont crest aesthetic) -->
+    <rect x="256" y="20" width="200" height="480" fill="#ffffff" fill-opacity="0.06" />
+  </g>
+  <path d="M 78,70 Q 256,22 434,70 V 268 C 434,378 256,482 256,482 C 256,482 78,378 78,268 Z" fill="none" stroke="#eab308" stroke-width="11" stroke-linejoin="round" />
+</svg>

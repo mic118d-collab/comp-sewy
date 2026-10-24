@@ -1,0 +1,8 @@
+{
+  "name": "RFF² — Roblox Football Federation Registry",
+  "description": "Official athlete intelligence registry, live Roblox profile directory, tactical scouting analyst, and staff hierarchy management for the Roblox Football Federation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

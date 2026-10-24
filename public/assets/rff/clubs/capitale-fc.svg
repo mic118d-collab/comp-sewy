@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <path id="cap-t" d="M 72,256 A 184,184 0 1,1 440,256" />
+    <path id="cap-b" d="M 432,274 A 178,178 0 0,1 80,274" />
+    <clipPath id="cap-c">
+      <circle cx="256" cy="256" r="142" />
+    </clipPath>
+  </defs>
+  <circle cx="256" cy="256" r="242" fill="#581c87" stroke="#eab308" stroke-width="11" />
+  <circle cx="256" cy="256" r="224" fill="none" stroke="#eab308" stroke-opacity="0.4" stroke-width="3" />
+  <g clip-path="url(#cap-c)">
+    <circle cx="256" cy="256" r="142" fill="#3b0764" />
+    
+        <!-- Roman Column -->
+        <rect x="202" y="148" width="108" height="22" rx="6" fill="#eab308" />
+        <circle cx="206" cy="166" r="12" fill="#fde047" />
+        <circle cx="306" cy="166" r="12" fill="#fde047" />
+        <rect x="220" y="170" width="72" height="154" fill="#ffffff" />
+        <line x1="238" y1="174" x2="238" y2="320" stroke="#581c87" stroke-width="4" />
+        <line x1="256" y1="174" x2="256" y2="320" stroke="#581c87" stroke-width="4" />
+        <line x1="274" y1="174" x2="274" y2="320" stroke="#581c87" stroke-width="4" />
+        <rect x="196" y="324" width="120" height="24" rx="4" fill="#eab308" />
+      
+    <path d="M256,114 A142,142 0 0,1 256,398 Z" fill="#ffffff" fill-opacity="0.06" />
+  </g>
+  <circle cx="256" cy="256" r="142" fill="none" stroke="#eab308" stroke-width="7" />
+  <text fill="#ffffff" font-family="'Arial Black', sans-serif" font-size="21" font-weight="900" letter-spacing="2.2">
+    <textPath href="#cap-t" startOffset="50%" text-anchor="middle">CAPITALE FOOTBALL CLUB</textPath>
+  </text>
+  <text fill="#facc15" font-family="'Arial Black', sans-serif" font-size="20" font-weight="800" letter-spacing="3.5">
+    <textPath href="#cap-b" startOffset="50%" text-anchor="middle">★  ROMA · ITALIA  ★</textPath>
+  </text>
+</svg>

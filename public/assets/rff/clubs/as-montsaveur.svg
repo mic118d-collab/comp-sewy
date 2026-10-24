@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="2048" height="2048" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <defs>
+    <linearGradient id="asm-ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#065f46" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+    <linearGradient id="asm-rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <radialGradient id="asm-core" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </radialGradient>
+    <path id="asm-t" d="M 70,256 A 186,186 0 1,1 442,256" />
+    <path id="asm-b" d="M 434,274 A 180,180 0 0,1 78,274" />
+    <clipPath id="asm-c">
+      <circle cx="256" cy="256" r="144" />
+    </clipPath>
+  </defs>
+  <!-- Outer Metallic Bezel + Enamel Ring -->
+  <circle cx="256" cy="256" r="245" fill="url(#asm-ring)" stroke="url(#asm-rim)" stroke-width="12" />
+  <circle cx="256" cy="256" r="231" fill="none" stroke="#34d399" stroke-opacity="0.45" stroke-width="2.5" />
+  <circle cx="256" cy="256" r="154" fill="none" stroke="#34d399" stroke-opacity="0.3" stroke-width="2" />
+
+  <!-- Core Heraldry Field -->
+  <g clip-path="url(#asm-c)">
+    <circle cx="256" cy="256" r="144" fill="url(#asm-core)" />
+    
+        <polygon points="134,344 224,158 308,344" fill="#059669" />
+        <polygon points="224,158 258,228 228,242 204,218" fill="#a7f3d0" fill-opacity="0.85" />
+        <polygon points="204,344 288,180 378,344" fill="#10b981" />
+        <polygon points="288,180 318,238 292,248 272,226" fill="#ecfdf5" fill-opacity="0.85" />
+        <text x="256" y="308" text-anchor="middle" fill="#ffffff" stroke="#022c22" stroke-width="5" paint-order="stroke" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="78" font-weight="900" letter-spacing="-2">ASM</text>
+      
+    <!-- Split-Half Studio Specular Sheen -->
+    <path d="M256,112 A144,144 0 0,1 256,400 Z" fill="#ffffff" fill-opacity="0.065" />
+  </g>
+  <circle cx="256" cy="256" r="144" fill="none" stroke="url(#asm-rim)" stroke-width="8" />
+
+  <!-- Side Heraldic Stars -->
+  <circle cx="52" cy="256" r="5" fill="#6ee7b7" />
+  <circle cx="460" cy="256" r="5" fill="#6ee7b7" />
+
+  <!-- Crisp Circular Typography -->
+  <text fill="#ffffff" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="900" letter-spacing="2.2">
+    <textPath href="#asm-t" startOffset="50%" text-anchor="middle">ASSOCIATION SPORTIVE MONTSAVEUR</textPath>
+  </text>
+  <text fill="#6ee7b7" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="19.5" font-weight="800" letter-spacing="3.5">
+    <textPath href="#asm-b" startOffset="50%" text-anchor="middle">★  A.S. MONTSAVEUR  ★</textPath>
+  </text>
+</svg>

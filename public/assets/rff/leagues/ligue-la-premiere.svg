@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="2048" height="2048" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <defs>
+    <linearGradient id="llp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1d42" />
+      <stop offset="55%" stop-color="#081229" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+    <linearGradient id="llp-rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185" />
+      <stop offset="45%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#9f1239" />
+    </linearGradient>
+    <linearGradient id="llp-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+    <path id="llp-top" d="M 68,256 A 188,188 0 1,1 444,256" />
+    <path id="llp-bot" d="M 434,274 A 180,180 0 0,1 78,274" />
+  </defs>
+  <!-- 4K Outer Medallion -->
+  <circle cx="256" cy="256" r="245" fill="url(#llp-bg)" stroke="url(#llp-rim)" stroke-width="13" />
+  <circle cx="256" cy="256" r="229" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="3" />
+  <circle cx="256" cy="256" r="149" fill="#0d2149" stroke="url(#llp-gold)" stroke-width="7" />
+
+  <!-- Tricolor Subtle Vertical Ribbons Inside Medallion -->
+  <clipPath id="llp-shield-clip">
+    <path d="M180,140 H332 V254 C332,318 256,368 256,368 C256,368 180,318 180,254 Z" />
+  </clipPath>
+  <g clip-path="url(#llp-shield-clip)">
+    <rect x="180" y="140" width="51" height="232" fill="#1d4ed8" />
+    <rect x="231" y="140" width="50" height="232" fill="#0f172a" />
+    <rect x="281" y="140" width="51" height="232" fill="#be123c" />
+    <rect x="256" y="140" width="76" height="232" fill="#ffffff" fill-opacity="0.08" />
+  </g>
+  <path d="M180,140 H332 V254 C332,318 256,368 256,368 C256,368 180,318 180,254 Z" fill="none" stroke="#ffffff" stroke-width="6.5" stroke-linejoin="round" />
+
+  <!-- Crowned Championship Star + Gallic Rooster Crest -->
+  <polygon points="256,114 262,127 276,128 265,137 269,150 256,143 243,150 247,137 236,128 250,127" fill="url(#llp-gold)" />
+  <path d="M250,164 C266,154 286,164 286,182 C298,180 304,193 293,204 L308,211 L290,220 C290,246 273,266 248,270 L260,294 H235 L242,270 C218,266 205,244 212,218 C221,233 238,231 244,216 C237,198 239,175 250,164 Z" fill="url(#llp-gold)" stroke="#081229" stroke-width="3.5" stroke-linejoin="round" />
+  
+    <g>
+      <circle cx="256" cy="324" r="24" fill="#ffffff" stroke="#081229" stroke-width="3.0" />
+      <line x1="256.0" y1="315.4" x2="256.0" y2="301.9" stroke="#0b1d42" stroke-width="2.0" stroke-linecap="round" /><line x1="264.2" y1="321.3" x2="277.0" y2="317.2" stroke="#0b1d42" stroke-width="2.0" stroke-linecap="round" /><line x1="261.1" y1="331.0" x2="269.0" y2="341.9" stroke="#0b1d42" stroke-width="2.0" stroke-linecap="round" /><line x1="250.9" y1="331.0" x2="243.0" y2="341.9" stroke="#0b1d42" stroke-width="2.0" stroke-linecap="round" /><line x1="247.8" y1="321.3" x2="235.0" y2="317.2" stroke="#0b1d42" stroke-width="2.0" stroke-linecap="round" />
+      <polygon points="256.0,315.4 264.2,321.3 261.1,331.0 250.9,331.0 247.8,321.3" fill="#0b1d42" />
+      <circle cx="249.8" cy="317.8" r="4.3" fill="#ffffff" fill-opacity="0.35" />
+    </g>
+  
+
+  <!-- Ring Text -->
+  <text fill="#ffffff" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="24.5" font-weight="900" letter-spacing="3.6">
+    <textPath href="#llp-top" startOffset="50%" text-anchor="middle">LIGUE LA PREMIERE</textPath>
+  </text>
+  <text fill="#fda4af" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="19.5" font-weight="800" letter-spacing="4.2">
+    <textPath href="#llp-bot" startOffset="50%" text-anchor="middle">★  DIVISION ÉLITE · RFF  ★</textPath>
+  </text>
+</svg>

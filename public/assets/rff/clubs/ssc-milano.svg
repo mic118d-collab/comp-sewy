@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <path id="mil-t" d="M 72,256 A 184,184 0 1,1 440,256" />
+    <path id="mil-b" d="M 432,274 A 178,178 0 0,1 80,274" />
+    <clipPath id="mil-c">
+      <circle cx="256" cy="256" r="142" />
+    </clipPath>
+  </defs>
+  <circle cx="256" cy="256" r="242" fill="#111827" stroke="#dc2626" stroke-width="11" />
+  <circle cx="256" cy="256" r="224" fill="none" stroke="#dc2626" stroke-opacity="0.4" stroke-width="3" />
+  <g clip-path="url(#mil-c)">
+    <circle cx="256" cy="256" r="142" fill="#ffffff" />
+    
+        <!-- Red Cross of Milan + Rossoneri Half -->
+        <rect x="114" y="114" width="142" height="284" fill="#111827" />
+        <rect x="142" y="114" width="28" height="284" fill="#dc2626" />
+        <rect x="198" y="114" width="28" height="284" fill="#dc2626" />
+        <rect x="256" y="114" width="142" height="284" fill="#ffffff" />
+        <rect x="308" y="114" width="36" height="284" fill="#dc2626" />
+        <rect x="256" y="238" width="142" height="36" fill="#dc2626" />
+        <circle cx="256" cy="256" r="136" fill="none" stroke="#16a34a" stroke-width="6" />
+      
+    <path d="M256,114 A142,142 0 0,1 256,398 Z" fill="#ffffff" fill-opacity="0.06" />
+  </g>
+  <circle cx="256" cy="256" r="142" fill="none" stroke="#dc2626" stroke-width="7" />
+  <text fill="#ffffff" font-family="'Arial Black', sans-serif" font-size="24" font-weight="900" letter-spacing="2.2">
+    <textPath href="#mil-t" startOffset="50%" text-anchor="middle">S.S.C. MILANO</textPath>
+  </text>
+  <text fill="#22c55e" font-family="'Arial Black', sans-serif" font-size="20" font-weight="800" letter-spacing="3.5">
+    <textPath href="#mil-b" startOffset="50%" text-anchor="middle">★  CALCIO MILANO  ★</textPath>
+  </text>
+</svg>

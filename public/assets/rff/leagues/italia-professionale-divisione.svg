@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <path id="ita-top" d="M 66,256 A 190,190 0 1,1 446,256" />
+    <path id="ita-bot" d="M 434,274 A 180,180 0 0,1 78,274" />
+    <clipPath id="ita-shield">
+      <path d="M180,152 H332 V264 C332,324 256,368 256,368 C256,368 180,324 180,264 Z" />
+    </clipPath>
+  </defs>
+  <circle cx="256" cy="256" r="244" fill="#0a2e73" stroke="#eab308" stroke-width="11" />
+  <circle cx="256" cy="256" r="228" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="3" />
+  <circle cx="256" cy="256" r="148" fill="#071f4e" stroke="#eab308" stroke-width="6" />
+  <!-- Tricolor Shield -->
+  <g clip-path="url(#ita-shield)">
+    <rect x="180" y="152" width="51" height="220" fill="#16a34a" />
+    <rect x="231" y="152" width="50" height="220" fill="#ffffff" />
+    <rect x="281" y="152" width="51" height="220" fill="#dc2626" />
+  </g>
+  <path d="M180,152 H332 V264 C332,324 256,368 256,368 C256,368 180,324 180,264 Z" fill="none" stroke="#eab308" stroke-width="8" />
+  
+    <g>
+      <circle cx="256" cy="250" r="34" fill="#ffffff" stroke="#0a2e73" stroke-width="3.4" />
+      <line x1="256.0" y1="237.8" x2="256.0" y2="218.7" stroke="#0a2e73" stroke-width="2.7" /><line x1="267.6" y1="246.2" x2="285.7" y2="240.3" stroke="#0a2e73" stroke-width="2.7" /><line x1="263.2" y1="259.9" x2="274.4" y2="275.3" stroke="#0a2e73" stroke-width="2.7" /><line x1="248.8" y1="259.9" x2="237.6" y2="275.3" stroke="#0a2e73" stroke-width="2.7" /><line x1="244.4" y1="246.2" x2="226.3" y2="240.3" stroke="#0a2e73" stroke-width="2.7" />
+      <polygon points="256.0,237.8 267.6,246.2 263.2,259.9 248.8,259.9 244.4,246.2" fill="#0a2e73" />
+    </g>
+  
+  <text fill="#ffffff" font-family="'Arial Black', sans-serif" font-size="20.5" font-weight="900" letter-spacing="2.1">
+    <textPath href="#ita-top" startOffset="50%" text-anchor="middle">ITALIA PROFESSIONALE DIVISIONE</textPath>
+  </text>
+  <text fill="#fde047" font-family="'Arial Black', sans-serif" font-size="20" font-weight="800" letter-spacing="4">
+    <textPath href="#ita-bot" startOffset="50%" text-anchor="middle">★  CALCIO · 2026  ★</textPath>
+  </text>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <path id="bay-t" d="M 72,256 A 184,184 0 1,1 440,256" />
+    <path id="bay-b" d="M 432,274 A 178,178 0 0,1 80,274" />
+    <clipPath id="bay-c">
+      <circle cx="256" cy="256" r="142" />
+    </clipPath>
+  </defs>
+  <circle cx="256" cy="256" r="242" fill="#14532d" stroke="#ffffff" stroke-width="11" />
+  <circle cx="256" cy="256" r="224" fill="none" stroke="#ffffff" stroke-opacity="0.4" stroke-width="3" />
+  <g clip-path="url(#bay-c)">
+    <circle cx="256" cy="256" r="142" fill="#16a34a" />
+    
+        <circle cx="256" cy="184" r="22" fill="#ffffff" />
+        <path d="M222,222 L268,212 L308,242 L292,258 L266,240 L254,284 L302,326 L284,344 L232,296 L204,342 L184,328 L226,262 L196,248 Z" fill="#ffffff" />
+        
+    <g>
+      <circle cx="312" cy="316" r="22" fill="#ffffff" stroke="#14532d" stroke-width="2.5" />
+      <line x1="312.0" y1="308.1" x2="312.0" y2="295.8" stroke="#14532d" stroke-width="2.0" /><line x1="319.5" y1="313.6" x2="331.2" y2="309.7" stroke="#14532d" stroke-width="2.0" /><line x1="316.7" y1="322.4" x2="323.9" y2="332.4" stroke="#14532d" stroke-width="2.0" /><line x1="307.3" y1="322.4" x2="300.1" y2="332.4" stroke="#14532d" stroke-width="2.0" /><line x1="304.5" y1="313.6" x2="292.8" y2="309.7" stroke="#14532d" stroke-width="2.0" />
+      <polygon points="312.0,308.1 319.5,313.6 316.7,322.4 307.3,322.4 304.5,313.6" fill="#14532d" />
+    </g>
+  
+      
+    <path d="M256,114 A142,142 0 0,1 256,398 Z" fill="#ffffff" fill-opacity="0.06" />
+  </g>
+  <circle cx="256" cy="256" r="142" fill="none" stroke="#ffffff" stroke-width="7" />
+  <text fill="#ffffff" font-family="'Arial Black', sans-serif" font-size="21" font-weight="900" letter-spacing="2.2">
+    <textPath href="#bay-t" startOffset="50%" text-anchor="middle">BAYERNSTADT FOOTBALL CLUB</textPath>
+  </text>
+  <text fill="#dcfce7" font-family="'Arial Black', sans-serif" font-size="20" font-weight="800" letter-spacing="3.5">
+    <textPath href="#bay-b" startOffset="50%" text-anchor="middle">★  BFC · 2026  ★</textPath>
+  </text>
+</svg>

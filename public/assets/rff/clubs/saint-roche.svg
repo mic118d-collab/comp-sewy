@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="2048" height="2048" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <defs>
+    <linearGradient id="str-ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#991b1b" />
+      <stop offset="100%" stop-color="#450a0a" />
+    </linearGradient>
+    <linearGradient id="str-rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <radialGradient id="str-core" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#082f49" />
+    </radialGradient>
+    <path id="str-t" d="M 70,256 A 186,186 0 1,1 442,256" />
+    <path id="str-b" d="M 434,274 A 180,180 0 0,1 78,274" />
+    <clipPath id="str-c">
+      <circle cx="256" cy="256" r="144" />
+    </clipPath>
+  </defs>
+  <!-- Outer Metallic Bezel + Enamel Ring -->
+  <circle cx="256" cy="256" r="245" fill="url(#str-ring)" stroke="url(#str-rim)" stroke-width="12" />
+  <circle cx="256" cy="256" r="231" fill="none" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="2.5" />
+  <circle cx="256" cy="256" r="154" fill="none" stroke="#22d3ee" stroke-opacity="0.3" stroke-width="2" />
+
+  <!-- Core Heraldry Field -->
+  <g clip-path="url(#str-c)">
+    <circle cx="256" cy="256" r="144" fill="url(#str-core)" />
+    
+        <!-- Maritime Frigate & Waves -->
+        <line x1="256" y1="132" x2="256" y2="286" stroke="#ffffff" stroke-width="7" stroke-linecap="round" />
+        <polygon points="256,132 292,144 256,154" fill="#ef4444" />
+        <path d="M262,152 C308,176 336,216 340,258 H262 Z" fill="#ffffff" />
+        <path d="M248,166 C212,188 188,220 182,258 H248 Z" fill="#22d3ee" />
+        <path d="M164,272 H348 L318,320 H194 Z" fill="#991b1b" stroke="#ffffff" stroke-width="5.5" stroke-linejoin="round" />
+        <path d="M124,344 Q190,322 256,344 T388,344" fill="none" stroke="#22d3ee" stroke-width="11" stroke-linecap="round" />
+        <path d="M138,366 Q198,348 256,366 T374,366" fill="none" stroke="#38bdf8" stroke-opacity="0.65" stroke-width="7" stroke-linecap="round" />
+      
+    <!-- Split-Half Studio Specular Sheen -->
+    <path d="M256,112 A144,144 0 0,1 256,400 Z" fill="#ffffff" fill-opacity="0.065" />
+  </g>
+  <circle cx="256" cy="256" r="144" fill="none" stroke="url(#str-rim)" stroke-width="8" />
+
+  <!-- Side Heraldic Stars -->
+  <circle cx="52" cy="256" r="5" fill="#67e8f9" />
+  <circle cx="460" cy="256" r="5" fill="#67e8f9" />
+
+  <!-- Crisp Circular Typography -->
+  <text fill="#ffffff" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="20.5" font-weight="900" letter-spacing="2.2">
+    <textPath href="#str-t" startOffset="50%" text-anchor="middle">FOOTBALL CLUB SAINT-ROCHE</textPath>
+  </text>
+  <text fill="#67e8f9" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="19.5" font-weight="800" letter-spacing="3.5">
+    <textPath href="#str-b" startOffset="50%" text-anchor="middle">★  SAINT-ROCHE · 1924  ★</textPath>
+  </text>
+</svg>

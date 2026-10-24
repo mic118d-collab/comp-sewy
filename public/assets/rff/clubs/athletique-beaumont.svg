@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="2048" height="2048" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+  <defs>
+    <linearGradient id="abm-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <linearGradient id="abm-rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+    <linearGradient id="abm-ban" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#be123c" />
+      <stop offset="50%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#be123c" />
+    </linearGradient>
+    <clipPath id="abm-sc">
+      <path d="M 76,68 Q 256,18 436,68 V 268 C 436,380 256,484 256,484 C 256,484 76,380 76,268 Z" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#abm-sc)">
+    <rect x="60" y="16" width="392" height="480" fill="url(#abm-bg)" />
+    
+        <!-- Royal Gold & Cobalt Vertical Stripes -->
+        <rect x="116" y="24" width="54" height="460" fill="#facc15" />
+        <rect x="228" y="24" width="56" height="460" fill="#facc15" />
+        <rect x="340" y="24" width="54" height="460" fill="#facc15" />
+        <circle cx="256" cy="182" r="64" fill="#0f172a" stroke="#ffffff" stroke-width="7" />
+        <circle cx="256" cy="182" r="54" fill="none" stroke="#facc15" stroke-width="2.5" />
+        <text x="256" y="203" text-anchor="middle" fill="#facc15" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="56" font-weight="900">AB</text>
+        
+    <g>
+      <circle cx="256" cy="420" r="27" fill="#ffffff" stroke="#facc15" stroke-width="3.0" />
+      <line x1="256.0" y1="410.3" x2="256.0" y2="395.2" stroke="#0f172a" stroke-width="2.3" stroke-linecap="round" /><line x1="265.2" y1="417.0" x2="279.6" y2="412.3" stroke="#0f172a" stroke-width="2.3" stroke-linecap="round" /><line x1="261.7" y1="427.9" x2="270.6" y2="440.1" stroke="#0f172a" stroke-width="2.3" stroke-linecap="round" /><line x1="250.3" y1="427.9" x2="241.4" y2="440.1" stroke="#0f172a" stroke-width="2.3" stroke-linecap="round" /><line x1="246.8" y1="417.0" x2="232.4" y2="412.3" stroke="#0f172a" stroke-width="2.3" stroke-linecap="round" />
+      <polygon points="256.0,410.3 265.2,417.0 261.7,427.9 250.3,427.9 246.8,417.0" fill="#0f172a" />
+      <circle cx="249.0" cy="413.0" r="4.9" fill="#ffffff" fill-opacity="0.35" />
+    </g>
+  
+      
+    <!-- Curved Enamel Banner Ribbon -->
+    <path d="M 56,306 Q 256,282 456,306 L 456,374 Q 256,350 56,374 Z" fill="url(#abm-ban)" stroke="#fef08a" stroke-width="4" />
+    <text x="256" y="349" text-anchor="middle" fill="#ffffff" font-family="'Arial Black', 'Plus Jakarta Sans', sans-serif" font-size="30" font-weight="900" letter-spacing="2.2">ATH. BEAUMONT</text>
+    <!-- Split-Half Studio Specular Highlight -->
+    <rect x="256" y="16" width="200" height="480" fill="#ffffff" fill-opacity="0.065" />
+  </g>
+  <path d="M 90,76 Q 256,32 422,76 V 266 C 422,368 256,466 256,466 C 256,466 90,368 90,266 Z" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="3" stroke-linejoin="round" />
+  <path d="M 76,68 Q 256,18 436,68 V 268 C 436,380 256,484 256,484 C 256,484 76,380 76,268 Z" fill="none" stroke="url(#abm-rim)" stroke-width="12" stroke-linejoin="round" />
+</svg>

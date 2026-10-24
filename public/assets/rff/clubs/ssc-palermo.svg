@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <clipPath id="pal-sc">
+      <path d="M 78,70 Q 256,22 434,70 V 268 C 434,378 256,482 256,482 C 256,482 78,378 78,268 Z" />
+    </clipPath>
+  </defs>
+  
+  <g clip-path="url(#pal-sc)">
+    <rect x="60" y="20" width="392" height="480" fill="#111116" />
+    
+        <polygon points="78,40 256,40 256,310 78,310" fill="#f472b6" fill-opacity="0.88" />
+        <path d="M148,168 L256,124 L364,168 L322,208 L256,184 L190,208 Z" fill="#eab308" stroke="#111116" stroke-width="5" />
+        <circle cx="256" cy="144" r="16" fill="#eab308" />
+        
+    <g>
+      <circle cx="256" cy="418" r="28" fill="#f472b6" stroke="#eab308" stroke-width="2.8" />
+      <line x1="256.0" y1="407.9" x2="256.0" y2="392.2" stroke="#111116" stroke-width="2.2" /><line x1="265.6" y1="414.9" x2="280.5" y2="410.0" stroke="#111116" stroke-width="2.2" /><line x1="261.9" y1="426.2" x2="271.1" y2="438.8" stroke="#111116" stroke-width="2.2" /><line x1="250.1" y1="426.2" x2="240.9" y2="438.8" stroke="#111116" stroke-width="2.2" /><line x1="246.4" y1="414.9" x2="231.5" y2="410.0" stroke="#111116" stroke-width="2.2" />
+      <polygon points="256.0,407.9 265.6,414.9 261.9,426.2 250.1,426.2 246.4,414.9" fill="#111116" />
+    </g>
+  
+      
+    <!-- Banner Ribbon -->
+    <path d="M 60,308 Q 256,286 452,308 L 452,374 Q 256,352 60,374 Z" fill="#f472b6" />
+    <text x="256" y="349" text-anchor="middle" fill="#111116" font-family="'Arial Black', sans-serif" font-size="36" font-weight="900" letter-spacing="2">PALERMO SSC</text>
+    <!-- Split-Half Subtle Highlight (matches Palmont crest aesthetic) -->
+    <rect x="256" y="20" width="200" height="480" fill="#ffffff" fill-opacity="0.06" />
+  </g>
+  <path d="M 78,70 Q 256,22 434,70 V 268 C 434,378 256,482 256,482 C 256,482 78,378 78,268 Z" fill="none" stroke="#eab308" stroke-width="11" stroke-linejoin="round" />
+</svg>
